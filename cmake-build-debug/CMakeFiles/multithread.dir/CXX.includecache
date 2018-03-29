@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adun/Desktop/multithread/16_과제1_빵집.cpp
+iostream
+-
+vector
+-
+chrono
+-
+thread
+-
+mutex
+-
+atomic
+-
+Bakery.h
+/Users/adun/Desktop/multithread/Bakery.h
+
+/Users/adun/Desktop/multithread/Bakery.h
+

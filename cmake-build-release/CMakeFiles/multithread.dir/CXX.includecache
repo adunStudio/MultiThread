@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adun/Desktop/multithread/18_ex18_CAS.cpp
+iostream
+-
+vector
+-
+chrono
+-
+thread
+-
+mutex
+-
+atomic
+-
+
