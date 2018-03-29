@@ -32,8 +32,6 @@ void Lock()
 void UnLock()
 {
     CAS(&X, 1, 0);
-    //while(!CAS(&X, 1, 0));
-    //return;
 }
 
 void ThreadFunc()
