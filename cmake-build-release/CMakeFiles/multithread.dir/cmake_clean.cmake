@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/multithread.dir/18_ex18_CAS.cpp.o"
+  "CMakeFiles/multithread.dir/21_SET_자료구조_세밀한동기화.cpp.o"
   "multithread.pdb"
   "multithread"
 )

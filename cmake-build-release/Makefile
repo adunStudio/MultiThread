@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/adun/Desktop/multithread
+CMAKE_SOURCE_DIR = /Users/adun/Desktop/MultiThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/adun/Desktop/multithread/cmake-build-release
+CMAKE_BINARY_DIR = /Users/adun/Desktop/MultiThread/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adun/Desktop/multithread/cmake-build-release/CMakeFiles /Users/adun/Desktop/multithread/cmake-build-release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adun/Desktop/MultiThread/cmake-build-release/CMakeFiles /Users/adun/Desktop/MultiThread/cmake-build-release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adun/Desktop/multithread/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adun/Desktop/MultiThread/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ multithread/fast:
 	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/build
 .PHONY : multithread/fast
 
-18_ex18_CAS.o: 18_ex18_CAS.cpp.o
+21_SET_자료구조_세밀한동기화.o: 21_SET_자료구조_세밀한동기화.cpp.o
 
-.PHONY : 18_ex18_CAS.o
+.PHONY : 21_SET_자료구조_세밀한동기화.o
 
 # target to build an object file
-18_ex18_CAS.cpp.o:
-	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/18_ex18_CAS.cpp.o
-.PHONY : 18_ex18_CAS.cpp.o
+21_SET_자료구조_세밀한동기화.cpp.o:
+	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/21_SET_자료구조_세밀한동기화.cpp.o
+.PHONY : 21_SET_자료구조_세밀한동기화.cpp.o
 
-18_ex18_CAS.i: 18_ex18_CAS.cpp.i
+21_SET_자료구조_세밀한동기화.i: 21_SET_자료구조_세밀한동기화.cpp.i
 
-.PHONY : 18_ex18_CAS.i
+.PHONY : 21_SET_자료구조_세밀한동기화.i
 
 # target to preprocess a source file
-18_ex18_CAS.cpp.i:
-	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/18_ex18_CAS.cpp.i
-.PHONY : 18_ex18_CAS.cpp.i
+21_SET_자료구조_세밀한동기화.cpp.i:
+	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/21_SET_자료구조_세밀한동기화.cpp.i
+.PHONY : 21_SET_자료구조_세밀한동기화.cpp.i
 
-18_ex18_CAS.s: 18_ex18_CAS.cpp.s
+21_SET_자료구조_세밀한동기화.s: 21_SET_자료구조_세밀한동기화.cpp.s
 
-.PHONY : 18_ex18_CAS.s
+.PHONY : 21_SET_자료구조_세밀한동기화.s
 
 # target to generate assembly for a file
-18_ex18_CAS.cpp.s:
-	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/18_ex18_CAS.cpp.s
-.PHONY : 18_ex18_CAS.cpp.s
+21_SET_자료구조_세밀한동기화.cpp.s:
+	$(MAKE) -f CMakeFiles/multithread.dir/build.make CMakeFiles/multithread.dir/21_SET_자료구조_세밀한동기화.cpp.s
+.PHONY : 21_SET_자료구조_세밀한동기화.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... multithread"
-	@echo "... 18_ex18_CAS.o"
-	@echo "... 18_ex18_CAS.i"
-	@echo "... 18_ex18_CAS.s"
+	@echo "... 21_SET_자료구조_세밀한동기화.o"
+	@echo "... 21_SET_자료구조_세밀한동기화.i"
+	@echo "... 21_SET_자료구조_세밀한동기화.s"
 .PHONY : help
 
 

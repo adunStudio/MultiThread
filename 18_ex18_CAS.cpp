@@ -2,8 +2,7 @@
 #include <vector>
 #include <chrono>
 #include <thread>
-#include <mutex>
-#include <atomic>
+
 
 using namespace std;
 using namespace std::chrono;
@@ -26,7 +25,6 @@ bool CAS(volatile int* addr, int expected, int new_val)
 void Lock()
 {
     while(!CAS(&X, 0, 1));
-    return;
 }
 
 void UnLock()

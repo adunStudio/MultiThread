@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/adun/Desktop/multithread/18_ex18_CAS.cpp
+/Users/adun/Desktop/MultiThread/21_SET_자료구조_세밀한동기화.cpp
 iostream
 -
-vector
--
 chrono
+-
+vector
 -
 thread
 -
 mutex
--
-atomic
 -
 

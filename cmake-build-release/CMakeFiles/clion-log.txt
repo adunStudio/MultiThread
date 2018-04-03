@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/adun/Desktop/multithread
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/adun/Desktop/MultiThread
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/adun/Desktop/multithread/cmake-build-release
+-- Build files have been written to: /Users/adun/Desktop/MultiThread/cmake-build-release
