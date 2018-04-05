@@ -58,7 +58,7 @@ struct Node
 };
 
 
-class CSet
+class FSet
 {
 private:
     Node head, tail;
@@ -67,14 +67,14 @@ private:
     //null_mutex glock;
 
 public:
-    CSet()
+    FSet()
     {
         head.key =  INT_MIN; //0x80000000; // -MAXINT
         tail.key =  INT_MAX; //0x7FFFFFFF; //  MAXINT
         head.next = &tail;
     }
 
-    ~CSet() {};
+    ~FSet() {};
 
     void Dump()
     {
@@ -165,11 +165,11 @@ public:
         {
             pre->next = cur->next;
 
-            delete cur;
 
             cur->lock.unlock();
             pre->lock.unlock();
 
+            delete cur;
 
             return true;
         }
@@ -227,7 +227,7 @@ public:
 static const int NUM_TEST   =  400000;
 static const int KEY_RANGE  =    1000;
 
-CSet my_set;
+FSet my_set;
 
 void benchmark(int num_thread)
 {
